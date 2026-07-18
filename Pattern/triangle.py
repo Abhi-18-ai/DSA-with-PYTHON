@@ -14,3 +14,18 @@ for i in range(1,num+1):
     print()
 
 
+# Inverted Right Triangle
+'''                                 
+*****
+****
+***
+**
+*
+'''
+
+n=5
+num = n
+for i in range(n):
+    for j in range(i,n):
+        print("*",end="")
+    print()
