@@ -1,0 +1,9 @@
+# by recursion
+
+def factorial(num):
+    if num==0 or num==1:
+        return 1
+    return num * factorial(num-1)
+
+answer = factorial(5)
+print(answer)
