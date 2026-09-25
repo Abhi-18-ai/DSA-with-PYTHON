@@ -1,14 +1,12 @@
 # reverse an array
 
-arr = [10, 20, 30, 40, 50]
+arr = [10, 20, 30, 40, 50,60]
 
 left = 0
 right = len(arr) - 1
 
 while left < right:
-    temp = arr[left]
-    arr[left] = arr[right]
-    arr[right] = temp
+    arr[left], arr[right] = arr[right], arr[left]
 
     left = left + 1
     right = right - 1
